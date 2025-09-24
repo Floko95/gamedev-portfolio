@@ -28,9 +28,12 @@ export default Vue.extend({
 
 // Preload heavy images or gifs that are used in other pages
 Helpers.preloadImages([
-  "img/projects/project-1-icon.png",
-  "img/projects/project-2-icon.png",
-  "img/projects/project-3-icon.png"
+  "img/projects/Exp60_4_Showcase_2.gif",
+  "img/projects/SG_trailer.gif",
+  "img/projects/Otter_Space.jpg",
+  "img/projects/Puzzles.gif",
+  "img/projects/Toonsters_Trailer.gif",
+  "img/projects/AAGames.gif"
 ]);
 
 </script>
@@ -105,6 +108,9 @@ h1 {
     max-width: 1200px;
     margin: 0 auto;
   }
+
+  
+
 }
 
 .fade-enter-active,
@@ -118,5 +124,6 @@ h1 {
 .fade-leave-active {
   opacity: 0
 }
+
 
 </style>

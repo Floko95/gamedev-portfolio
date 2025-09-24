@@ -3,7 +3,7 @@
     
     <h1>Let's get in touch</h1>
 
-    <div style="margin-bottom:40px;">I'm looking for a job !<br/>Feel free to contact me about any opportunity, or just to chat about cooking, kittens or anything else.</div>
+    <div style="margin-bottom:40px;">I'm looking for a job !<br/>Feel free to contact me about any opportunity, or just to chat about gamedev stuff, cooking, kittens or anything else.</div>
 
     <ul>
       <li>
@@ -15,8 +15,8 @@
         <a href="www.linkedin.com/in/florian-kotecki-676291132" target="_blank">www.linkedin.com/in/florian-kotecki-676291132</a>
       </li>
       <li>
-        <i class="fa fa-envelope-o fa-lg fa-fw"></i>
-        <a href="mailto:flo.kotecki@gmail.com" target="_blank">flo.kotecki@gmail.com</a>
+        <i class="fa fa-youtube fa-lg fa-fw"></i>
+        <a href="https://www.youtube.com/@UniReverse-q5b" target="_blank">https://www.youtube.com/@UniReverse-q5b</a>
       </li>
     </ul>
 

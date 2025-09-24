@@ -64,6 +64,8 @@ export default Vue.extend({
 });
 </script>
 
+
+
 <style scoped>
 
 .project-item {
@@ -105,17 +107,22 @@ filter: brightness(120%);
 
 @media only screen and (min-width: 620px){
   .projects-list {
-    max-width: 900px;
+    max-width: 1200px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
     grid-auto-rows: minmax(250px, auto);
+  }
+
+  .pl {
+    padding-left: 0px;
   }
 
   .project-item {
     margin: 0px;
     height: 100%;
     width: 100%;
+    border-radius: 8px;
   }
 
   .wide {
@@ -124,8 +131,9 @@ filter: brightness(120%);
   .high {
     grid-row-end: span 2;
   }
+
 }
 
-
-
 </style>
+
+
