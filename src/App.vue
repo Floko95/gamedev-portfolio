@@ -30,11 +30,12 @@ export default Vue.extend({
 Helpers.preloadImages([
   "img/projects/Exp60_4_Showcase_2.gif",
   "img/projects/SG_trailer.gif",
-  "img/projects/Otter_Space.jpg",
   "img/projects/Puzzles.gif",
   "img/projects/Toonsters_Trailer.gif",
-  "img/projects/AAGames.gif"
+  "img/projects/AAGames.gif",
+  "img/projects/TilesSpread.mp4"
 ]);
+
 
 </script>
 

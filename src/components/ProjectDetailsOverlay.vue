@@ -105,7 +105,7 @@ a.dialog-close-button {
     margin: 0 auto;
     margin-top: 80px;
     margin-bottom: 40px;
-    max-width: 900px;
+    max-width: 1000px;
   }
 
   h1.dialog-title {

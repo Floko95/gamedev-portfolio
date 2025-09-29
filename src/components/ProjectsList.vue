@@ -103,6 +103,7 @@ filter: brightness(120%);
 
 .title-text {
   padding: 10px;
+  color: white;
 }
 
 @media only screen and (min-width: 620px){

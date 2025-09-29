@@ -4,18 +4,19 @@
 
     <div class="paragraph">
       I'm <strong>Florian Kotecki</strong>, a gameplay programmer with 5 years of experience.
-      <br />After graduating from kindergarten, I've been enrolled in the army for 25 years, where I learned to destroy things in an amazing number of ways.
-      <br />I joined the Delta Force because I thought it was Greek lessons, but I quickly adapted to this unexpected environment and became a key element.
-      <br />I love teamwork, but I can also go in solo depending on the mission requirements.
-      <br />
-      <br />Right now I'm trying to find inner peace after I've read some personal development books. I'm looking for a job so if you have any opportunity feel free to 
+      <br />I'm a Game Dev, straight out of IT engineering school.
+      <br />A confirmed troglodyte gamer, I've developed the critical thinking skills that detect a juicy and fun game. <br>
+      <br />So I became an expert on Unity and Unreal to be able to express my passions, which resulted in over 200M Downloads on mobile.
+      <br>
+      <br />I love the meticulousness, the patience, the pressure, and the dopamine rush that the job brings.
+      <br />I have a deep passion for project architecture and design patterns, which allow all the features to be linked together and enable designer-friendly juiciness in an optimal time frame, while facilitating the import of features and design tools into other projects. I also have a codebase for a few personal projects that proves to be quite handful.
       <router-link to="/contact">contact me</router-link>.
       <br />
-      <br />Besides war, I'm passionate about firearms, martial arts, explosions, push-ups and flowers.
+      <br />
 
       <div style="margin-top:20px; margin-bottom:20px;">
-        <a class="download-link" href="d/resume-en.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF 🇬🇧</a>
-        <a class="download-link" href="d/cv-fr.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Télécharger en PDF 🇫🇷</a>
+        <a class="download-link" href="d/CV KOTECKI_Florian_EN.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF 🇬🇧</a>
+        <a class="download-link" href="d/CV KOTECKI_Florian.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Télécharger en PDF 🇫🇷</a>
         <div style="clear:both"></div>
       </div>
     </div>
@@ -32,15 +33,15 @@
       <h4>January 2024 - April 2025</h4>
 
       <div>Joined a studio based on puzzle mobile casual games.</div>
-      <div>With the aid of an artist and a game designer</div>
-
+      <div>With the aid of an artist and a game designer, we produced over a dozen games published to the Apple store.</div>
+      <div>I handled the whole gameplay code, as well as Level Design Tools for the designer to use.</div>
       <h3>Gamedev - YSO Corp</h3>
       <h4>January 2021 - November 2023</h4>
 
       <div>Design and development of mobile games, top to bottom, including art and analytics. Mostly in solo.</div>
       <div>Started with Hypercasual, followed by Hybrid Casual games.</div>
       <div>Also ported games from mobile to Nintendo Switch!</div>
-      <div class="tech-stack">Even more Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
+      <div class="tech-stack"></div>
 
       <h3>Fullstack developer internships</h3>
       <h4>2017 & 2019</h4>
@@ -51,30 +52,51 @@
       <h2>Skills</h2>
 
       <div class="skill-set">
-        <h3>Lethal</h3>
-        <SkillRate name="Handguns" :rate="5" />
-        <SkillRate name="Rifles" :rate="5" />
-        <SkillRate name="Shotguns" :rate="5" />
-        <SkillRate name="Machineguns" :rate="5" />
-        <SkillRate name="Missile launchers" :rate="5" />
-        <SkillRate name="Knives" :rate="5" />
-        <SkillRate name="Hand to hand combat" :rate="5" />
+        <h3>Languages</h3>
+        <SkillRate name="C" />
+        <SkillRate name="C++" />
+        <SkillRate name="C#" />
+        <SkillRate name="Javascript" />
+        <SkillRate name="Pyton" />
+        <SkillRate name="Sql" />
       </div>
 
       <div class="skill-set">
-        <h3>Non-lethal</h3>
-        <SkillRate name="Sneaking" :rate="1" />
-        <SkillRate name="Negotiation" :rate="1" />
-        <SkillRate name="Seduction" :rate="1" />
-        <SkillRate name="Sense of humor" :rate="2" />
+        <h3>Gamedev</h3>
+        <SkillRate name="Unity" />
+        <SkillRate name="Unreal Engine 5" />
+        <SkillRate name="Blender" />
+        <SkillRate name="Sense of humor"/>
       </div>
+
+      <div class="skill-set">
+        <h3>Tools&Frameworks</h3>
+        <SkillRate name="VSCode" />
+        <SkillRate name="Rider Jetbrains" />
+        <SkillRate name=".NET" />
+        <SkillRate name="Odin"/>
+        <SkillRate name="FEEL"/>
+        <SkillRate name=".Net"/>
+        <SkillRate name="WPF & UWP"/>
+      </div>
+
+      <div class="skill-set">
+        <h3>Web</h3>
+        <SkillRate name="HTML" />
+        <SkillRate name="CSS" />
+        <SkillRate name="Vue" />
+        <SkillRate name="PHP"/>
+        <SkillRate name="React"/>
+        <SkillRate name="MySQL"/>
+      </div>
+      
       <div style="clear:both" />
 
       <h2>Education</h2>
 
       <h3>SUP Galilée: 2017 - 2020</h3>
       <h4>Master's Degree in IT Engineering</h4>
-      <div>With this I can brag about having deep IT knowledge.</div>
+      <div>With this I can brag about having deep IT knowledge that I will probably never use.</div>
 
       <h3>Paris 13 University : 2015 - 2017</h3>
       <h4>DUT INFO</h4>
@@ -97,7 +119,7 @@
       <div>
         <h3>I ❤️ Video games</h3>
         <div>Solo or multiplayer, Old or recent, I have a large spectrum of personal favorites in their domain. Here are some of them among so many others:
-          <br /> Solo : Hollow knight, Celeste, Ori, Dragon quest IX, Mystery dungeons, and recently Baldur's Gate 3 and Clair Obscur : Exepedition 33.
+          <br /> Solo : Hollow knight, Celeste, Ori, Dragon quest IX, Mystery dungeons, and recently Silksong and Clair Obscur : Expedition 33.
           <br /> Multiplayer : Monster Hunter, League of legends, Ravenswatch, Sea of thieves, even Patapon 3.
 
           <br /> Every game I played somehow played a part of who I am as of today.
@@ -171,8 +193,8 @@ h4 {
 }
 
 .photo img {
-  height: 300px;
-  width: 300px;
+  height: 450px;
+  width: 250px;
 }
 
 .tech-stack {
@@ -180,7 +202,7 @@ h4 {
 }
 
 .photo {
-  margin-top: 50px;
+  
   text-align: center;
 }
 
@@ -197,7 +219,8 @@ h4 {
 
   .skill-set {
     float: left;
-    padding-right: 60px; 
+    padding-right: 60px;
+    max-width: 230px !important;
   }
 }
 </style>

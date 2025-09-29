@@ -35,6 +35,11 @@ export default Vue.extend({
 
   .footer {
     padding: 0;
+    color: white;
+  }
+
+  .footer a{
+    color: white;
   }
 
   .left, .right {
